@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00BCD4"
+        android:fontFamily="sans-serif-smallcaps"
+        android:foregroundTint="#3F51B5"
+        android:gravity="center"
+        android:text="Currency App"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40sp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Enter Amount to convert"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/txtCurrency"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100sp"
+        android:layout_marginTop="15sp"
+        android:ems="10"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:text="Amount"
+        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteY="26dp" />
+
+    <Spinner
+        android:id="@+id/spnCurrency"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="79dp" />
+
+    <Button
+        android:id="@+id/btnClick"
+        android:layout_width="307dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="50sp"
+        android:text="Convert"
+        tools:layout_editor_absoluteX="9dp"
+        tools:layout_editor_absoluteY="138dp" />
+
+    <TextView
+        android:id="@+id/txtDisplay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+
+</LinearLayout>
